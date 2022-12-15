@@ -6,7 +6,7 @@ const Home = () => {
   const isLoggIn = useSelector(state => state.user.isLoggedIn);
   return (
     <div className={style.home_container}>
-      <h1 className={style.home_heading}>Hi everyone!</h1>
+      <h1 className={style.home_heading}>Ultimate phone book!!</h1>
       {isLoggIn ? (
         <StyledLink to="/contacts">Your contacts</StyledLink>
       ) : (
